@@ -1,0 +1,25 @@
+{
+  "name": "easyrtc",
+  "version": "1.0.0",
+  "author": "Rajkumar Thadem",
+  "description": "Simple EasyRTC server example which includes EasyRTC, Express, and Socket.io",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "easyrtc": "1.0.x",
+    "serve-static": "^1.8.0",
+    "socket.io": "^1.4.8"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/week9-15971.git"
+  },
+  "main": "server.js"
+}
